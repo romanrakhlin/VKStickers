@@ -9,61 +9,67 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="f8F-iH-XU3">
+        <view contentMode="scaleToFill" restorationIdentifier="PackCell" id="f8F-iH-XU3">
             <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uui-fs-qk9">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                    <rect key="frame" x="10" y="10" width="394" height="105"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="uwz-0U-9My">
-                            <rect key="frame" x="20" y="25" width="75" height="75"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="75" id="ELX-bW-0AP"/>
-                                <constraint firstAttribute="height" constant="75" id="zgB-Wa-pOQ"/>
-                            </constraints>
-                        </imageView>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="BGM-n0-1Bi">
-                            <rect key="frame" x="115" y="25" width="279" height="75"/>
+                            <rect key="frame" x="115" y="15" width="259" height="75"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uc-Y3-39i">
-                                    <rect key="frame" x="0.0" y="0.0" width="279" height="36"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="259" height="36"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtj-72-lJI">
-                                    <rect key="frame" x="0.0" y="39" width="279" height="36"/>
+                                    <rect key="frame" x="0.0" y="39" width="259" height="36"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
                         </stackView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="uwz-0U-9My">
+                            <rect key="frame" x="20" y="15" width="75" height="75"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="75" id="ELX-bW-0AP"/>
+                                <constraint firstAttribute="height" constant="75" id="zgB-Wa-pOQ"/>
+                            </constraints>
+                        </imageView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
-                        <constraint firstItem="BGM-n0-1Bi" firstAttribute="leading" secondItem="uwz-0U-9My" secondAttribute="trailing" constant="20" id="IhR-WZ-lnM"/>
-                        <constraint firstAttribute="bottom" secondItem="uwz-0U-9My" secondAttribute="bottom" constant="25" id="RM0-8J-Egi"/>
-                        <constraint firstItem="uwz-0U-9My" firstAttribute="top" secondItem="Uui-fs-qk9" secondAttribute="top" constant="25" id="jZx-3W-JvF"/>
-                        <constraint firstAttribute="trailing" secondItem="BGM-n0-1Bi" secondAttribute="trailing" constant="20" id="lI3-Gc-bGR"/>
-                        <constraint firstItem="uwz-0U-9My" firstAttribute="leading" secondItem="Uui-fs-qk9" secondAttribute="leading" constant="20" id="ucC-th-3Mg"/>
-                        <constraint firstItem="BGM-n0-1Bi" firstAttribute="top" secondItem="Uui-fs-qk9" secondAttribute="top" constant="25" id="yCL-u6-EBL"/>
-                        <constraint firstAttribute="bottom" secondItem="BGM-n0-1Bi" secondAttribute="bottom" constant="25" id="yVu-lt-0ge"/>
+                        <constraint firstItem="BGM-n0-1Bi" firstAttribute="top" secondItem="Uui-fs-qk9" secondAttribute="top" constant="15" id="TsH-RK-Nn1"/>
+                        <constraint firstItem="uwz-0U-9My" firstAttribute="top" secondItem="Uui-fs-qk9" secondAttribute="top" constant="15" id="X1s-5z-X8U"/>
+                        <constraint firstAttribute="trailing" secondItem="BGM-n0-1Bi" secondAttribute="trailing" constant="20" id="cV3-cQ-u9G"/>
+                        <constraint firstAttribute="bottom" secondItem="BGM-n0-1Bi" secondAttribute="bottom" constant="15" id="swW-RZ-vhD"/>
+                        <constraint firstItem="BGM-n0-1Bi" firstAttribute="leading" secondItem="uwz-0U-9My" secondAttribute="trailing" constant="20" id="usQ-ze-Rgs"/>
+                        <constraint firstItem="uwz-0U-9My" firstAttribute="leading" secondItem="Uui-fs-qk9" secondAttribute="leading" constant="20" id="vWR-N2-z15"/>
+                        <constraint firstAttribute="bottom" secondItem="uwz-0U-9My" secondAttribute="bottom" constant="15" id="ywZ-bs-AIA"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="8Bh-zg-huV" firstAttribute="trailing" secondItem="Uui-fs-qk9" secondAttribute="trailing" id="4JD-JJ-mPq"/>
-                <constraint firstItem="Uui-fs-qk9" firstAttribute="bottom" secondItem="8Bh-zg-huV" secondAttribute="bottom" id="aHh-7j-BFQ"/>
-                <constraint firstItem="Uui-fs-qk9" firstAttribute="top" secondItem="f8F-iH-XU3" secondAttribute="top" id="bpH-V1-pfd"/>
-                <constraint firstItem="Uui-fs-qk9" firstAttribute="leading" secondItem="8Bh-zg-huV" secondAttribute="leading" id="s9w-xW-u4B"/>
+                <constraint firstItem="8Bh-zg-huV" firstAttribute="trailing" secondItem="Uui-fs-qk9" secondAttribute="trailing" constant="10" id="3L9-uA-yjJ"/>
+                <constraint firstItem="Uui-fs-qk9" firstAttribute="top" secondItem="f8F-iH-XU3" secondAttribute="top" constant="10" id="oQS-QA-clx"/>
+                <constraint firstItem="Uui-fs-qk9" firstAttribute="leading" secondItem="8Bh-zg-huV" secondAttribute="leading" constant="10" id="uep-cA-qKb"/>
+                <constraint firstItem="8Bh-zg-huV" firstAttribute="bottom" secondItem="Uui-fs-qk9" secondAttribute="bottom" constant="10" id="zSr-cV-dXJ"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="8Bh-zg-huV"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="Mtj-72-lJI" id="DHI-eQ-g8U"/>
+                <outlet property="imageLogo" destination="uwz-0U-9My" id="8Ay-ti-XDK"/>
+                <outlet property="mainView" destination="Uui-fs-qk9" id="5mb-qw-gMc"/>
+                <outlet property="titleLable" destination="2uc-Y3-39i" id="nJe-wz-hNm"/>
+            </connections>
             <point key="canvasLocation" x="156.52173913043478" y="124.88839285714285"/>
         </view>
     </objects>

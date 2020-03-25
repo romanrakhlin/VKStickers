@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A32E169242285BB005318A8 /* PackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A32E168242285BB005318A8 /* PackCell.xib */; };
+		3A32E16C2422894E005318A8 /* PackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A32E16B2422894E005318A8 /* PackCell.swift */; };
+		3A32E1732423BCD9005318A8 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A32E1722423BCD9005318A8 /* OnboardingViewController.swift */; };
 		3A44886B242116A900505CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44886A242116A900505CED /* AppDelegate.swift */; };
 		3A44886D242116A900505CED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44886C242116A900505CED /* SceneDelegate.swift */; };
-		3A44886F242116A900505CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44886E242116A900505CED /* ViewController.swift */; };
 		3A448872242116A900505CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A448870242116A900505CED /* Main.storyboard */; };
 		3A448874242116AD00505CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A448873242116AD00505CED /* Assets.xcassets */; };
 		3A448877242116AD00505CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A448875242116AD00505CED /* LaunchScreen.storyboard */; };
+		3A76C1592421423B000DE693 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76C1582421423B000DE693 /* MainTableViewController.swift */; };
+		3A76C15B24214244000DE693 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76C15A24214244000DE693 /* AboutTableViewController.swift */; };
+		3A76C15D24214272000DE693 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76C15C24214272000DE693 /* DetailViewController.swift */; };
+		3A7C59762423E1CA00537DB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C59752423E1CA00537DB3 /* GoogleService-Info.plist */; };
+		3A7C597A2424209E00537DB3 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C59792424209E00537DB3 /* Onboarding.storyboard */; };
+		3A7C597C2424280000537DB3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C597B2424280000537DB3 /* SettingsTableViewController.swift */; };
+		6420D4AD17A0A885D6973A31 /* Pods_VKStickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658AB523AFF5DAFC9048A8E1 /* Pods_VKStickers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A32E168242285BB005318A8 /* PackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackCell.xib; sourceTree = "<group>"; };
+		3A32E16B2422894E005318A8 /* PackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackCell.swift; sourceTree = "<group>"; };
+		3A32E1722423BCD9005318A8 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		3A448867242116A900505CED /* VKStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A44886A242116A900505CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A44886C242116A900505CED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A44886E242116A900505CED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A448871242116A900505CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A448873242116AD00505CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A448876242116AD00505CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A448878242116AD00505CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A76C1582421423B000DE693 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		3A76C15A24214244000DE693 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		3A76C15C24214272000DE693 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3A7C59752423E1CA00537DB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "VKStickers/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3A7C59792424209E00537DB3 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		3A7C597B2424280000537DB3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		658AB523AFF5DAFC9048A8E1 /* Pods_VKStickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKStickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72262DDD38872EF6B2F30944 /* Pods-VKStickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKStickers.release.xcconfig"; path = "Target Support Files/Pods-VKStickers/Pods-VKStickers.release.xcconfig"; sourceTree = "<group>"; };
+		D59765B1FB9DB353A358D51C /* Pods-VKStickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKStickers.debug.xcconfig"; path = "Target Support Files/Pods-VKStickers/Pods-VKStickers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6420D4AD17A0A885D6973A31 /* Pods_VKStickers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14D476C15DD7131CCA5FC506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D59765B1FB9DB353A358D51C /* Pods-VKStickers.debug.xcconfig */,
+				72262DDD38872EF6B2F30944 /* Pods-VKStickers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3A32E16A2422892B005318A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A32E168242285BB005318A8 /* PackCell.xib */,
+				3A32E16B2422894E005318A8 /* PackCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3A44885E242116A900505CED = {
 			isa = PBXGroup;
 			children = (
 				3A448869242116A900505CED /* VKStickers */,
 				3A448868242116A900505CED /* Products */,
+				14D476C15DD7131CCA5FC506 /* Pods */,
+				C18EB0376500D07DF114A321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,54 @@
 		3A448869242116A900505CED /* VKStickers */ = {
 			isa = PBXGroup;
 			children = (
-				3A44886A242116A900505CED /* AppDelegate.swift */,
-				3A44886C242116A900505CED /* SceneDelegate.swift */,
-				3A44886E242116A900505CED /* ViewController.swift */,
-				3A448870242116A900505CED /* Main.storyboard */,
-				3A448873242116AD00505CED /* Assets.xcassets */,
-				3A448875242116AD00505CED /* LaunchScreen.storyboard */,
+				3A76C15F24214285000DE693 /* Delegates */,
+				3A76C15E24214277000DE693 /* Controller */,
+				3A32E16A2422892B005318A8 /* View */,
+				3A76C16024214291000DE693 /* Storyboards */,
+				3A7C59752423E1CA00537DB3 /* GoogleService-Info.plist */,
 				3A448878242116AD00505CED /* Info.plist */,
+				3A448873242116AD00505CED /* Assets.xcassets */,
 			);
 			path = VKStickers;
+			sourceTree = "<group>";
+		};
+		3A76C15E24214277000DE693 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A76C1582421423B000DE693 /* MainTableViewController.swift */,
+				3A76C15C24214272000DE693 /* DetailViewController.swift */,
+				3A7C597B2424280000537DB3 /* SettingsTableViewController.swift */,
+				3A76C15A24214244000DE693 /* AboutTableViewController.swift */,
+				3A32E1722423BCD9005318A8 /* OnboardingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A76C15F24214285000DE693 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3A44886A242116A900505CED /* AppDelegate.swift */,
+				3A44886C242116A900505CED /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		3A76C16024214291000DE693 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3A448870242116A900505CED /* Main.storyboard */,
+				3A7C59792424209E00537DB3 /* Onboarding.storyboard */,
+				3A448875242116AD00505CED /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C18EB0376500D07DF114A321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658AB523AFF5DAFC9048A8E1 /* Pods_VKStickers.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A44887B242116AD00505CED /* Build configuration list for PBXNativeTarget "VKStickers" */;
 			buildPhases = (
+				0AD27795F0BF15BCB63EF4C4 /* [CP] Check Pods Manifest.lock */,
 				3A448863242116A900505CED /* Sources */,
 				3A448864242116A900505CED /* Frameworks */,
 				3A448865242116A900505CED /* Resources */,
+				87820E317B93E87CA18DFFF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A32E169242285BB005318A8 /* PackCell.xib in Resources */,
 				3A448877242116AD00505CED /* LaunchScreen.storyboard in Resources */,
+				3A7C59762423E1CA00537DB3 /* GoogleService-Info.plist in Resources */,
+				3A7C597A2424209E00537DB3 /* Onboarding.storyboard in Resources */,
 				3A448874242116AD00505CED /* Assets.xcassets in Resources */,
 				3A448872242116A900505CED /* Main.storyboard in Resources */,
 			);
@@ -133,14 +218,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AD27795F0BF15BCB63EF4C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKStickers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87820E317B93E87CA18DFFF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKStickers/Pods-VKStickers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKStickers/Pods-VKStickers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKStickers/Pods-VKStickers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A448863242116A900505CED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A44886F242116A900505CED /* ViewController.swift in Sources */,
 				3A44886B242116A900505CED /* AppDelegate.swift in Sources */,
+				3A76C1592421423B000DE693 /* MainTableViewController.swift in Sources */,
+				3A76C15D24214272000DE693 /* DetailViewController.swift in Sources */,
+				3A32E1732423BCD9005318A8 /* OnboardingViewController.swift in Sources */,
 				3A44886D242116A900505CED /* SceneDelegate.swift in Sources */,
+				3A32E16C2422894E005318A8 /* PackCell.swift in Sources */,
+				3A76C15B24214244000DE693 /* AboutTableViewController.swift in Sources */,
+				3A7C597C2424280000537DB3 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 		};
 		3A44887C242116AD00505CED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59765B1FB9DB353A358D51C /* Pods-VKStickers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +427,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrakhlin.VKStickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3A44887D242116AD00505CED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72262DDD38872EF6B2F30944 /* Pods-VKStickers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrakhlin.VKStickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

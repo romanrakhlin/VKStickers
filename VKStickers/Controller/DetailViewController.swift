@@ -10,21 +10,36 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var packTitle: String?
+    var packDescription: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        descriptionTextView.isEditable = false // запрещаем изменение textview
 
-        // Do any additional setup after loading the view.
+        titleLabel.text = packTitle
+        descriptionTextView.text = packDescription
+        
+        // закругляем углы у картинки
+        imageView.layer.masksToBounds = false
+        imageView.layer.cornerRadius = imageView.frame.height/2
+        imageView.clipsToBounds = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // кнопка Поделиться
+    @IBAction func shareButton(_ sender: Any) {
+        let message = "Узнавай о новых бесплатных стикерах ВК"
+        if let link = NSURL(string: "http://yoururl.com")
+        {
+            let objectsToShare = [message,link] as [Any]
+            let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+            activityVC.excludedActivityTypes = [UIActivity.ActivityType.airDrop, UIActivity.ActivityType.addToReadingList]
+            self.present(activityVC, animated: true, completion: nil)
+        }
     }
-    */
-
 }
