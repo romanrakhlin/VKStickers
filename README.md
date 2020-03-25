@@ -8,7 +8,7 @@ This app shows free sticker packs from VK and how to get them.
 
 ## Screenshots
 
-![image](./img.jpg)
+![image](./img.png)
 
 ## License
 
